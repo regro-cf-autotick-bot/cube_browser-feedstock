@@ -11,22 +11,35 @@ Summary: Working with Jupyter Notebooks to interactively visualise Iris cubes.
 
 
 
+Current build status
+====================
+
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/cube_browser-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/cube_browser-feedstock)
+
+Current release info
+====================
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cube_browser-green.svg)](https://anaconda.org/conda-forge/cube_browser) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cube_browser.svg)](https://anaconda.org/conda-forge/cube_browser) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cube_browser.svg)](https://anaconda.org/conda-forge/cube_browser) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cube_browser.svg)](https://anaconda.org/conda-forge/cube_browser) |
+
 Installing cube_browser
 =======================
 
-Installing cube_browser from the conda-forge channel can be achieved by adding conda-forge to your channels with:
+Installing `cube_browser` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the conda-forge channel has been enabled, cube_browser can be installed with:
+Once the `conda-forge` channel has been enabled, `cube_browser` can be installed with:
 
 ```
 conda install cube_browser
 ```
 
-It is possible to list all of the versions of cube_browser available on your platform with:
+It is possible to list all of the versions of `cube_browser` available on your platform with:
 
 ```
 conda search cube_browser --channel conda-forge
@@ -51,9 +64,10 @@ packages to the [conda-forge](https://anaconda.org/conda-forge)
 
 To manage the continuous integration and simplify feedstock maintenance
 [conda-smithy](http://github.com/conda-forge/conda-smithy) has been developed.
-Using the ``conda-forge.yml`` within this repository, it is possible to regenerate all of
-this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy regenerate``.
+Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
+this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
@@ -66,18 +80,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cube_browser-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cube_browser-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cube_browser-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cube_browser-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cube_browser-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cube-browser-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cube_browser/badges/version.svg)](https://anaconda.org/conda-forge/cube_browser)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cube_browser/badges/downloads.svg)](https://anaconda.org/conda-forge/cube_browser)
 
 
 Updating cube_browser-feedstock
